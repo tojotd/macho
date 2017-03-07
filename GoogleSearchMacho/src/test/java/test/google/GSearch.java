@@ -41,7 +41,7 @@ public class GSearch {
 	public void GoogleSearch(String search_data) throws InterruptedException
 	{
 		System.out.println("Search Data : "+search_data);
-		System.out.println("First Git test");
+		System.out.println("First Git test push");
 		//Enter login name
 		//WebDriverWait wait = new WebDriverWait(driver, 10);	
 		
