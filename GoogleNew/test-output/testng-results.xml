@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="5485" started-at="2017-03-04T02:00:14Z" finished-at="2017-03-04T02:00:20Z">
+    <groups>
+    </groups>
+    <test name="Google Search Test" duration-ms="5485" started-at="2017-03-04T02:00:14Z" finished-at="2017-03-04T02:00:20Z">
+      <class name="test.google.GSearch">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:test.google.GSearch@55f3ddb1]" name="beforeTest" is-config="true" duration-ms="4300" started-at="2017-03-03T21:00:14Z" finished-at="2017-03-03T21:00:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="GoogleSearch(java.lang.String)[pri:0, instance:test.google.GSearch@55f3ddb1]" name="GoogleSearch" duration-ms="6" started-at="2017-03-03T21:00:19Z" finished-at="2017-03-03T21:00:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test NG]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogleSearch -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.google.GSearch@55f3ddb1]" name="afterTest" is-config="true" duration-ms="1160" started-at="2017-03-03T21:00:19Z" finished-at="2017-03-03T21:00:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- test.google.GSearch -->
+    </test> <!-- Google Search Test -->
+  </suite> <!-- Suite -->
+</testng-results>
