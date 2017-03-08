@@ -3,15 +3,16 @@
 <suite name="Failed suite [Suite]">
   <parameter name="search_data" value="Test NG"/>
   <parameter name="browser" value="chrome"/>
-  <parameter name="appurl" value="www.google.com"/>
+  <parameter name="appurl" value="https://www.google.com"/>
   <test name="Google Search Test(failed)">
     <parameter name="search_data" value="Test NG"/>
     <parameter name="browser" value="chrome"/>
-    <parameter name="appurl" value="www.google.com"/>
+    <parameter name="appurl" value="https://www.google.com"/>
     <classes>
       <class name="test.google.GSearch">
         <methods>
-          <include name="GoogleSearch"/>
+          <include name="afterTest"/>
+          <include name="GoogleSearch" invocation-numbers="0"/>
           <include name="beforeTest"/>
         </methods>
       </class> <!-- test.google.GSearch -->

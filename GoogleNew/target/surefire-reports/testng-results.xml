@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="5348" started-at="2017-03-04T02:00:34Z" finished-at="2017-03-04T02:00:39Z">
+  <suite name="Suite" duration-ms="6006" started-at="2017-03-07T02:32:01Z" finished-at="2017-03-07T02:32:07Z">
     <groups>
     </groups>
-    <test name="Google Search Test" duration-ms="5348" started-at="2017-03-04T02:00:34Z" finished-at="2017-03-04T02:00:39Z">
+    <test name="Google Search Test" duration-ms="6006" started-at="2017-03-07T02:32:01Z" finished-at="2017-03-07T02:32:07Z">
       <class name="test.google.GSearch">
-        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:test.google.GSearch@79b4d0f]" name="beforeTest" is-config="true" duration-ms="4198" started-at="2017-03-03T21:00:34Z" finished-at="2017-03-03T21:00:38Z">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:test.google.GSearch@79b4d0f]" name="beforeTest" is-config="true" duration-ms="4807" started-at="2017-03-06T21:32:01Z" finished-at="2017-03-06T21:32:06Z">
           <params>
             <param index="0">
               <value>
@@ -23,7 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="GoogleSearch(java.lang.String)[pri:0, instance:test.google.GSearch@79b4d0f]" name="GoogleSearch" duration-ms="1" started-at="2017-03-03T21:00:38Z" finished-at="2017-03-03T21:00:38Z">
+        <test-method status="PASS" signature="GoogleSearch(java.lang.String)[pri:0, instance:test.google.GSearch@79b4d0f]" name="GoogleSearch" duration-ms="1" started-at="2017-03-06T21:32:06Z" finished-at="2017-03-06T21:32:06Z">
           <params>
             <param index="0">
               <value>
@@ -34,7 +34,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GoogleSearch -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.google.GSearch@79b4d0f]" name="afterTest" is-config="true" duration-ms="1145" started-at="2017-03-03T21:00:38Z" finished-at="2017-03-03T21:00:39Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.google.GSearch@79b4d0f]" name="afterTest" is-config="true" duration-ms="1179" started-at="2017-03-06T21:32:06Z" finished-at="2017-03-06T21:32:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

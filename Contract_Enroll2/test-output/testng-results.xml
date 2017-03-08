@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="8375" started-at="2017-02-24T02:52:46Z" finished-at="2017-02-24T02:52:54Z">
+  <suite name="Suite" duration-ms="9188" started-at="2017-03-07T21:06:22Z" finished-at="2017-03-07T21:06:31Z">
     <groups>
     </groups>
-    <test name="Enrollment Test" duration-ms="8375" started-at="2017-02-24T02:52:46Z" finished-at="2017-02-24T02:52:54Z">
+    <test name="Enrollment Test" duration-ms="9188" started-at="2017-03-07T21:06:22Z" finished-at="2017-03-07T21:06:31Z">
       <class name="test.enroll.Enroll_rule">
-        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:test.enroll.Enroll_rule@1d057a39]" name="beforeTest" is-config="true" duration-ms="4064" started-at="2017-02-23T21:52:46Z" finished-at="2017-02-23T21:52:50Z">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:test.enroll.Enroll_rule@1d057a39]" name="beforeTest" is-config="true" duration-ms="5296" started-at="2017-03-07T16:06:22Z" finished-at="2017-03-07T16:06:27Z">
           <params>
             <param index="0">
               <value>
@@ -23,7 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="LoginEnrollment(java.lang.String, java.lang.String)[pri:0, instance:test.enroll.Enroll_rule@1d057a39]" name="LoginEnrollment" duration-ms="1483" started-at="2017-02-23T21:52:50Z" finished-at="2017-02-23T21:52:51Z">
+        <test-method status="PASS" signature="LoginEnrollment(java.lang.String, java.lang.String)[pri:0, instance:test.enroll.Enroll_rule@1d057a39]" name="LoginEnrollment" duration-ms="1674" started-at="2017-03-07T16:06:27Z" finished-at="2017-03-07T16:06:29Z">
           <params>
             <param index="0">
               <value>
@@ -39,7 +39,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginEnrollment -->
-        <test-method status="PASS" signature="NavigateToRule(java.lang.String)[pri:0, instance:test.enroll.Enroll_rule@1d057a39]" name="NavigateToRule" duration-ms="1328" started-at="2017-02-23T21:52:51Z" finished-at="2017-02-23T21:52:52Z">
+        <test-method status="PASS" signature="NavigateToRule(java.lang.String)[pri:0, instance:test.enroll.Enroll_rule@1d057a39]" name="NavigateToRule" duration-ms="772" started-at="2017-03-07T16:06:29Z" finished-at="2017-03-07T16:06:30Z">
           <params>
             <param index="0">
               <value>
@@ -50,7 +50,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NavigateToRule -->
-        <test-method status="PASS" signature="ValidateRule(java.lang.String)[pri:0, instance:test.enroll.Enroll_rule@1d057a39]" name="ValidateRule" duration-ms="1" started-at="2017-02-23T21:52:52Z" finished-at="2017-02-23T21:52:52Z">
+        <test-method status="PASS" signature="ValidateRule(java.lang.String)[pri:0, instance:test.enroll.Enroll_rule@1d057a39]" name="ValidateRule" duration-ms="2" started-at="2017-03-07T16:06:30Z" finished-at="2017-03-07T16:06:30Z">
           <params>
             <param index="0">
               <value>
@@ -61,11 +61,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateRule -->
-        <test-method status="PASS" signature="LogoutEnrollment()[pri:0, instance:test.enroll.Enroll_rule@1d057a39]" name="LogoutEnrollment" duration-ms="323" started-at="2017-02-23T21:52:52Z" finished-at="2017-02-23T21:52:53Z">
+        <test-method status="PASS" signature="LogoutEnrollment()[pri:0, instance:test.enroll.Enroll_rule@1d057a39]" name="LogoutEnrollment" duration-ms="268" started-at="2017-03-07T16:06:30Z" finished-at="2017-03-07T16:06:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LogoutEnrollment -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.enroll.Enroll_rule@1d057a39]" name="afterTest" is-config="true" duration-ms="1150" started-at="2017-02-23T21:52:53Z" finished-at="2017-02-23T21:52:54Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.enroll.Enroll_rule@1d057a39]" name="afterTest" is-config="true" duration-ms="1158" started-at="2017-03-07T16:06:30Z" finished-at="2017-03-07T16:06:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
