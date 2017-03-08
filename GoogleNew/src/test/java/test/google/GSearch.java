@@ -41,18 +41,30 @@ public class GSearch {
 	public void GoogleSearch(String search_data) throws InterruptedException
 	{
 		System.out.println("Search Data : "+search_data);
-		//Enter login name
-		//WebDriverWait wait = new WebDriverWait(driver, 10);	
-		
-		//WebElement user_nm = wait.until(ExpectedConditions.elementToBeClickable(By.id("username")));
-		////WebElement user_nm = driver.findElement(By.id("username"));
-		//user_nm.sendKeys(username_data);
+		//Enter Search Data
+		WebDriverWait wait = new WebDriverWait(driver, 10);	
+		WebElement search_item = wait.until(ExpectedConditions.elementToBeClickable(By.id("lst-ib")));
+		//WebElement search_item = driver.findElement(By.id("username"));
+		search_item.sendKeys(search_data);
 
+		//Click on search button
+		WebElement srch_button = driver.findElement(By.id("_fZl"));
+		srch_button.click();
+		
+		
+		//Click on TestNG _ WElcome Link
+		WebElement serched_item_link = wait.until(ExpectedConditions.elementToBeClickable(By.linkText("TestNG - Welcome")));
+		serched_item_link.click();
+
+		//Verify the an item in the loaded page
+		WebElement item_to_verify = driver.findElement(By.linkText("Welcome"));
+		Assert.assertEquals("Welcome", item_to_verify.getText());
 		
 	}
 
 	
 	@AfterClass public void afterTest(){
+		WebDriverWait wait = new WebDriverWait(driver, 10);	
 		driver.quit();
 	}
 	
