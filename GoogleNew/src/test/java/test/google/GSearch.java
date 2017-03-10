@@ -55,14 +55,14 @@ public class GSearch {
 		//Click on TestNG _ WElcome Link
 		WebElement serched_item_link = wait.until(ExpectedConditions.elementToBeClickable(By.linkText("TestNG - Welcome")));
 		serched_item_link.click();
-
+	}
+	public void VerifyResult()throws InterruptedException
+	{
 		//Verify the an item in the loaded page
 		WebElement item_to_verify = driver.findElement(By.linkText("Welcome"));
-		Assert.assertEquals("Welcome", item_to_verify.getText());
-		
+		Assert.assertEquals("Welcome", item_to_verify.getText());		
 	}
 
-	
 	@AfterClass public void afterTest(){
 		WebDriverWait wait = new WebDriverWait(driver, 10);	
 		driver.quit();
