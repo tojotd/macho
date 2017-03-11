@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="7832" started-at="2017-03-08T01:14:38Z" finished-at="2017-03-08T01:14:46Z">
+  <suite name="Suite" duration-ms="7814" started-at="2017-03-10T21:07:41Z" finished-at="2017-03-10T21:07:48Z">
     <groups>
     </groups>
-    <test name="Google Search Test" duration-ms="7832" started-at="2017-03-08T01:14:38Z" finished-at="2017-03-08T01:14:46Z">
+    <test name="Google Search Test" duration-ms="7814" started-at="2017-03-10T21:07:41Z" finished-at="2017-03-10T21:07:48Z">
       <class name="test.google.GSearch">
-        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:test.google.GSearch@1d057a39]" name="beforeTest" is-config="true" duration-ms="4658" started-at="2017-03-07T20:14:38Z" finished-at="2017-03-07T20:14:43Z">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:test.google.GSearch@1d057a39]" name="beforeTest" is-config="true" duration-ms="4320" started-at="2017-03-10T16:07:41Z" finished-at="2017-03-10T16:07:45Z">
           <params>
             <param index="0">
               <value>
@@ -23,7 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="GoogleSearch(java.lang.String)[pri:0, instance:test.google.GSearch@1d057a39]" name="GoogleSearch" duration-ms="2035" started-at="2017-03-07T20:14:43Z" finished-at="2017-03-07T20:14:45Z">
+        <test-method status="PASS" signature="GoogleSearch(java.lang.String)[pri:0, instance:test.google.GSearch@1d057a39]" name="GoogleSearch" duration-ms="2259" started-at="2017-03-10T16:07:45Z" finished-at="2017-03-10T16:07:47Z">
           <params>
             <param index="0">
               <value>
@@ -34,7 +34,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GoogleSearch -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.google.GSearch@1d057a39]" name="afterTest" is-config="true" duration-ms="1136" started-at="2017-03-07T20:14:45Z" finished-at="2017-03-07T20:14:46Z">
+        <test-method status="PASS" signature="VerifyResult()[pri:0, instance:test.google.GSearch@1d057a39]" name="VerifyResult" duration-ms="58" started-at="2017-03-10T16:07:47Z" finished-at="2017-03-10T16:07:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyResult -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.google.GSearch@1d057a39]" name="afterTest" is-config="true" duration-ms="1156" started-at="2017-03-10T16:07:47Z" finished-at="2017-03-10T16:07:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

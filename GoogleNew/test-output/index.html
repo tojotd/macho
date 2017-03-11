@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,6 +102,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="test.google.GSearch" hash-for-method="GoogleSearch(Test NG)">GoogleSearch(Test NG)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="test.google.GSearch" hash-for-method="VerifyResult">VerifyResult</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -128,6 +133,13 @@
                   </a> <!-- GoogleSearch(Test NG) -->
                   <span class="method-name">GoogleSearch</span>
                   <span class="parameters">(Test NG)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyResult">
+                  </a> <!-- VerifyResult -->
+                  <span class="method-name">VerifyResult</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -187,11 +199,15 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'GoogleSearch')
 data.setCell(0, 2, 'test.google.GSearch')
-data.setCell(0, 3, 2035);
+data.setCell(0, 3, 2259);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'VerifyResult')
+data.setCell(1, 2, 'test.google.GSearch')
+data.setCell(1, 3, 58);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -229,11 +245,15 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">GoogleSearch(Test NG)</span>
-                <span class="method-start">4660 ms</span>
+                <span class="method-start">4323 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyResult</span>
+                <span class="method-start">6584 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">6696 ms</span>
+                <span class="method-start">6643 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -56,6 +56,7 @@ public class GSearch {
 		WebElement serched_item_link = wait.until(ExpectedConditions.elementToBeClickable(By.linkText("TestNG - Welcome")));
 		serched_item_link.click();
 	}
+	@Test (priority = 2)
 	public void VerifyResult()throws InterruptedException
 	{
 		//Verify the an item in the loaded page

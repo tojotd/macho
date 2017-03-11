@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="6.396" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="7.612" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_121\bin"/>
@@ -26,9 +26,9 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\eclipse\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4632915369037367215.tmp"/>
+    <property name="classworlds.conf" value="C:\eclipse\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1808666650118057585.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_121/bin/server;C:/Program Files/Java/jre1.8.0_121/bin;C:/Program Files/Java/jre1.8.0_121/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\SAP\DataAccess64\ADONET\dll;C:\SAP\DataAccess\ADONET\dll;C:\SAP\DataAccess64\ODBC\dll;C:\SAP\DataAccess\ODBC\dll;C:\SAP\OCS-16_0\lib3p64;C:\SAP\OCS-16_0\lib3p;C:\SAP\OCS-16_0\dll;C:\SAP\OCS-16_0\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Attachmate\E!E2K\;C:\Program Files (x86)\Geac\PCLink32\Windows;C:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Users\devassyt\Desktop;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_121/bin/server;C:/Program Files/Java/jre1.8.0_121/bin;C:/Program Files/Java/jre1.8.0_121/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\SAP\DataAccess64\ADONET\dll;C:\SAP\DataAccess\ADONET\dll;C:\SAP\DataAccess64\ODBC\dll;C:\SAP\DataAccess\ODBC\dll;C:\SAP\OCS-16_0\lib3p64;C:\SAP\OCS-16_0\lib3p;C:\SAP\OCS-16_0\dll;C:\SAP\OCS-16_0\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Attachmate\E!E2K\;C:\Program Files (x86)\Geac\PCLink32\Windows;C:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_121\bin;c:\Program Files\Git\bin\git.exe;C:\Users\devassyt\Desktop;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -60,5 +60,6 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="GoogleSearch" classname="test.google.GSearch" time="0.006"/>
+  <testcase name="GoogleSearch" classname="test.google.GSearch" time="1.93"/>
+  <testcase name="VerifyResult" classname="test.google.GSearch" time="0.057"/>
 </testsuite>
