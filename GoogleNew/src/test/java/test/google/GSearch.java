@@ -32,6 +32,7 @@ public class GSearch {
 		  driver = new ChromeDriver();
 	  } 
 	//Open the application
+	  driver.manage().window().maximize();
 	  driver.get(appurl);
 	  driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
 	}
